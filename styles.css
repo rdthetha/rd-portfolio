@@ -3,3 +3,18 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+:root{
+    --primary-color:red;
+}
+.link{
+    padding:0.5rem 1rem;
+    text-decoration: none;
+}
+.link-primary{
+    background-color: var(--primary-color);
+}
+
+.link-secondary{
+    
+}
