@@ -101,7 +101,7 @@ h2{
 
 .navigation .link{
     color: white;
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 .nav-pills{
@@ -203,7 +203,9 @@ color: white;
 .section-blog  h1{
     font-size: 2rem;
 }
-
+.section-blog p{
+    margin-bottom: 0px;
+}
 .contact{
     font-size: 1.5rem;
     padding-bottom: 1rem;
@@ -216,4 +218,4 @@ color: white;
 .last-div{
     padding-top: 1rem;
     color: red;
-}
+ }
