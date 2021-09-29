@@ -27,7 +27,7 @@ h2{
     padding: 0rem 1rem;
 }
 .container-center{
-    max-width: 600px;
+    max-width: 60%;
     margin: auto;
 
 }
@@ -43,11 +43,22 @@ h2{
     color: white;
     display: block;
     text-align: center;
-    margin-bottom: 1rem;
-    font-weight: bold;
     
+    font-weight: bold;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 1rem;
 }
 
+.link-primary:hover{
+    background-color: #37478E;
+}
+.link-tertiary:hover{
+    background-color: #37478E;
+}
+.link-secondary:hover{
+    background-color: #d4d4d4;
+}
 .link-secondary{
     background-color: var(--light-gray);
     border-radius: 0.5rem;
@@ -56,6 +67,9 @@ h2{
     margin-bottom: 2rem;
     text-align: center;
     font-weight: bold;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 1rem;
 }
 
 .link-tertiary{
@@ -77,6 +91,7 @@ h2{
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .nav-brand{
@@ -192,4 +207,8 @@ color: white;
     font-size: 1.5rem;
     padding-bottom: 1rem;
     font-weight: bolder;
+}
+
+.header{
+    font-size: 2rem;
 }
