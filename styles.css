@@ -1,8 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+:root{
+    --primary-color:#24305E;
+    --dark-gray:#6B7280;
+    --light-gray:#E2E8F0;
+    
+}
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Comfortaa', cursive;
     margin: 0px;
+    background-color: #A8D0E6;
+    
 }
 
 hr{
@@ -20,12 +29,7 @@ h2{
     margin: auto;
 
 }
-:root{
-    --primary-color:#0DB3AE;
-    --dark-gray:#6B7280;
-    --light-gray:#E2E8F0;
-    ;
-}
+
 .link{
     padding:0.5rem 1rem;
     text-decoration: none;
@@ -44,6 +48,8 @@ h2{
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid white;
+    display: block;
+    text-align: center;
 
 }
 .list-non-bullet{
@@ -65,7 +71,7 @@ h2{
 
 .nav-brand{
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 2rem;
 }
 
 .navigation .link{
@@ -75,6 +81,7 @@ h2{
     text-align: right;
 }
 .navigation .link-active{
+    border-bottom: 2px solid;
     font-weight: bold;
 }
 /**header**/
@@ -103,9 +110,11 @@ h2{
     text-align:center;
 }
 .ow{
-    background-color: var(--light-gray)
+    background-color: #7B68EE
 }
-
+.w{
+    background-color: #87CEEB;
+}
 footer{
     background-color: var(--primary-color);
     padding: 2rem 0rem;
@@ -119,6 +128,19 @@ color: white;
 
 }
 
+.link-tertiary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid white;
+
+}
+
 .social-links{
     padding-inline-start: 0px;
 }
+
+#heading{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
