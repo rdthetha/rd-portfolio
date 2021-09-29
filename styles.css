@@ -3,7 +3,7 @@
 :root{
     --primary-color:#24305E;
     --dark-gray:#6B7280;
-    --light-gray:#E2E8F0;
+    --light-gray:#f0f8ff;
     
 }
 
@@ -41,16 +41,19 @@ h2{
     color: white;
     display: block;
     text-align: center;
+    margin-bottom: 1rem;
+    font-weight: bold;
     
 }
 
 .link-secondary{
-    color: var(--primary-color);
+    background-color: var(--light-gray);
     border-radius: 0.5rem;
-    border: 1px solid white;
+    border: 1px solid var(--primary-color);
     display: block;
+    margin-bottom: 2rem;
     text-align: center;
-
+    font-weight: bold;
 }
 .list-non-bullet{
     list-style: none;
@@ -144,3 +147,16 @@ color: white;
     margin-bottom: 2rem;
 }
 
+.showcase-list{
+    border-radius: 1rem;
+  text-align: center;
+  margin: auto;
+
+}
+
+.span-style{
+
+    color: var(--primary-color);
+    font-weight: bold;
+  
+}
