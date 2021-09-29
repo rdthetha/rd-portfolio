@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@500&family=Ubuntu:wght@300&display=swap');
 
 :root{
     --primary-color:#24305E;
@@ -6,11 +6,13 @@
     --light-gray:#f0f8ff;
     
 }
-
+*{
+    font-family: 'Stick No Bills', sans-serif;
+}
 body{
     font-family: 'Comfortaa', cursive;
     margin: 0px;
-    background-color: #A8D0E6;
+    background-color: whitesmoke;
     
 }
 
@@ -55,6 +57,11 @@ h2{
     text-align: center;
     font-weight: bold;
 }
+
+.link-tertiary{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
 .list-non-bullet{
     list-style: none;
 }
@@ -79,6 +86,8 @@ h2{
 
 .navigation .link{
     color: white;
+    font-size: 2rem;
+    font-weight: bold;
 }
 .nav-pills{
     text-align: right;
@@ -111,6 +120,7 @@ h2{
 }
 .section h1 ,p{
     text-align:center;
+    
 }
 .ow{
     background-color: #7B68EE
@@ -159,4 +169,27 @@ color: white;
     color: var(--primary-color);
     font-weight: bold;
   
+}
+.showcase-list {
+    margin-bottom: 0.5rem;
+    border-style: dotted;
+    font-size: 1.1rem;
+}
+
+.section-blog h1,p{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+}
+.section-blog  h1{
+    font-size: 2rem;
+}
+
+.contact{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    font-weight: bolder;
 }
