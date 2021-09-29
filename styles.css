@@ -27,7 +27,7 @@ h2{
     padding: 0rem 1rem;
 }
 .container-center{
-    max-width: 60%;
+    max-width: 50%;
     margin: auto;
 
 }
@@ -96,7 +96,7 @@ h2{
 
 .nav-brand{
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .navigation .link{
@@ -211,4 +211,8 @@ color: white;
 
 .header{
     font-size: 2rem;
+}
+.last-div{
+    padding-top: 1rem;
+    color: red;
 }
